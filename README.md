@@ -13,7 +13,7 @@ A modern React-based attendance management system with QR code functionality, bu
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://mythrasviel.github.io/schoolschoolqr)
+[View Live Demo](https://mythrasviel.github.io/qrschool)
 
 ## 🛠️ Tech Stack
 
@@ -27,8 +27,8 @@ A modern React-based attendance management system with QR code functionality, bu
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/mythrasviel/schoolschoolqr.git
-   cd schoolschoolqr
+   git clone https://github.com/mythrasviel/qrschool.git
+   cd qrschool
    ```
 
 2. **Install dependencies**

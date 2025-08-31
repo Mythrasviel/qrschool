@@ -59,7 +59,7 @@
         },
       },
     },
-    base: process.env.NODE_ENV === 'production' ? '/schoolschoolqr/' : '/',
+    base: process.env.NODE_ENV === 'production' ? '/qrschool/' : '/',
     server: {
       port: 3000,
       open: true,

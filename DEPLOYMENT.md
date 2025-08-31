@@ -14,7 +14,7 @@ This guide will help you deploy your Attendance Management System to GitHub Page
 
 1. Go to [GitHub](https://github.com) and sign in
 2. Click the "+" icon in the top right corner and select "New repository"
-3. Name your repository `schoolschoolqr`
+3. Name your repository `qrschool`
 4. Make it public (required for free GitHub Pages)
 5. Don't initialize with README, .gitignore, or license (we already have these)
 6. Click "Create repository"
@@ -32,7 +32,7 @@ git add .
 git commit -m "Initial commit: Attendance Management System"
 
 # Add the remote repository
-git remote add origin https://github.com/mythrasviel/schoolschoolqr.git
+git remote add origin https://github.com/mythrasviel/qrschool.git
 
 # Push to GitHub
 git push -u origin main
@@ -59,10 +59,10 @@ Update the live demo link in your README.md:
 ```markdown
 ## 🚀 Live Demo
 
-[View Live Demo](https://mythrasviel.github.io/schoolschoolqr)
+[View Live Demo](https://mythrasviel.github.io/qrschool)
 ```
 
-Your repository is already configured for deployment at: `https://mythrasviel.github.io/schoolschoolqr`
+Your repository is already configured for deployment at: `https://mythrasviel.github.io/qrschool`
 
 ## Automatic Deployment
 
