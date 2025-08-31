@@ -52,7 +52,14 @@
     build: {
       target: 'esnext',
       outDir: 'dist',
+      assetsDir: 'assets',
+      rollupOptions: {
+        output: {
+          manualChunks: undefined,
+        },
+      },
     },
+    base: process.env.NODE_ENV === 'production' ? '/schoolschoolqr/' : '/',
     server: {
       port: 3000,
       open: true,
