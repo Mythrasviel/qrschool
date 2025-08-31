@@ -59,6 +59,7 @@
           "dev": "vite",
           "build": "tsc && vite build",
           "preview": "vite preview",
-          "type-check": "tsc --noEmit"
+          "type-check": "tsc --noEmit",
+          "deploy": "npm run build && echo 'Build complete! Push to GitHub to deploy.'"
       }
   }
